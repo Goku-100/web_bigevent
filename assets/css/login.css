@@ -1,0 +1,65 @@
+body {
+    height: 100vh;
+    background: url(/assets/images/login_bg.jpg) no-repeat center / cover;
+}
+
+/* 登录注册公共面板 */
+.panel {
+    width: 400px;
+    height: 270px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form-box {
+    padding: 0 20px;
+}
+
+/* 去注册a */
+.change-link {
+    display: flex;
+    justify-content: end;
+}
+
+.change-panel {
+    color: #1890ff;
+}
+
+.change-panel:hover {
+    color: blue;
+}
+
+
+
+/* 登录注册公共标题 */
+.panel .login-title {
+    height: 60px;
+    background: url(/assets/images/login_title.png) no-repeat center;
+}
+
+
+/* 注册面板 */
+.reg-panel {
+    height: 310px;
+    display: none;
+}
+
+/* 每一个input框 */
+.layui-form-item {
+    position: relative;
+}
+
+.layui-input {
+    padding-left: 30px;
+}
+
+/* 字体图标 */
+.icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
